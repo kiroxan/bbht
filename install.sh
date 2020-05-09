@@ -71,6 +71,13 @@ echo "Don't forget to set up AWS credentials!"
 mkdir ~/tools
 cd ~/tools/
 
+echo "installing ssrffinder"
+git clone https://github.com/kiroxan/ssrffinder.git
+mv ssrffinder/ssrf.sh ~/tools/ssrf.sh 
+echo "done"
+
+
+
 #install aquatone
 echo "Installing Aquatone"
 go get github.com/michenriksen/aquatone
