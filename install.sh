@@ -87,6 +87,11 @@ echo "Installing gau"
 go get github.com/lc/gau
 echo "gau done"
 
+#install waybackurls
+echo "Installing waybackurls"
+go get github.com/tomnomnom/waybackurls
+echo "waybackurls done"
+
 #install chromium
 echo "Installing Chromium"
 sudo snap install chromium
