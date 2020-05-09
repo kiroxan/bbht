@@ -82,6 +82,7 @@ git clone https://github.com/0xdevalias/docker-oxml_xxe.git
 cd docker-oxml_xxe
 sudo docker build -t devalias/oxml_xxe .
 sudo docker run --rm -p 4567:4567 devalias/oxml_xxe $@ &
+sleep 1
 cd ~/tools/
 
 #install aquatone
