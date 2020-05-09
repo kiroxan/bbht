@@ -87,6 +87,12 @@ echo "Installing gau"
 go get github.com/lc/gau
 echo "gau done"
 
+
+#install qsreplace
+echo "Installing qsreplace"
+go get -u github.com/tomnomnom/qsreplace
+echo "qsreplace done"
+
 #install waybackurls
 echo "Installing waybackurls"
 go get github.com/tomnomnom/waybackurls
