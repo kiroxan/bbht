@@ -188,10 +188,6 @@ echo "installing unfurl"
 go get -u github.com/tomnomnom/unfurl 
 echo "done"
 
-echo "installing waybackurls"
-go get github.com/tomnomnom/waybackurls
-echo "done"
-
 echo "installing crtndstry"
 git clone https://github.com/nahamsec/crtndstry.git
 echo "done"
