@@ -60,7 +60,6 @@ select choice in "${choices[@]}"; do
 done
 fi
 
-
 #Don't forget to set up AWS credentials!
 echo "Don't forget to set up AWS credentials!"
 apt install -y awscli
