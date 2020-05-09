@@ -77,10 +77,15 @@ echo "Installing Aquatone"
 go get github.com/michenriksen/aquatone
 echo "done"
 
-#install aquatone
+#install ffuf
 echo "Installing ffuf"
 go get github.com/ffuf/ffuf
 echo "ffuf done"
+
+#install gau
+echo "Installing gau"
+go get github.com/lc/gau
+echo "gau done"
 
 #install chromium
 echo "Installing Chromium"
