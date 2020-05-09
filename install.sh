@@ -77,6 +77,11 @@ echo "Installing Aquatone"
 go get github.com/michenriksen/aquatone
 echo "done"
 
+#install aquatone
+echo "Installing ffuf"
+go get github.com/ffuf/ffuf
+echo "ffuf done"
+
 #install chromium
 echo "Installing Chromium"
 sudo snap install chromium
