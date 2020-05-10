@@ -100,6 +100,10 @@ echo "Installing gau"
 go get github.com/lc/gau
 echo "gau done"
 
+#install gitrob
+echo "Installing gitrob"
+go get github.com/michenriksen/gitrob
+echo "gitrob done"
 
 #install qsreplace
 echo "Installing qsreplace"
